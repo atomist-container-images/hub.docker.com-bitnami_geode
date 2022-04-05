@@ -1,12 +1,18 @@
-# Tags: latest, 1.14.4-debian-10-r4, 1.14.4, 1-debian-10, 1
+# Tags: latest, 1.14.4-debian-10-r6, 1.14.4, 1-debian-10, 1
 FROM bitnami/geode:latest
-FROM bitnami/geode:1.14.4-debian-10-r4
+FROM bitnami/geode:1.14.4-debian-10-r6
 FROM bitnami/geode:1.14.4
 FROM bitnami/geode:1-debian-10
 FROM bitnami/geode:1
 
 # Tags: _
 FROM bitnami/geode:_
+
+# Tags: 1.14.4-debian-10-r5
+FROM bitnami/geode:1.14.4-debian-10-r5
+
+# Tags: 1.14.4-debian-10-r4
+FROM bitnami/geode:1.14.4-debian-10-r4
 
 # Tags: 1.14.4-debian-10-r3
 FROM bitnami/geode:1.14.4-debian-10-r3
@@ -29,15 +35,3 @@ FROM bitnami/geode:1.14.3-debian-10-r31
 
 # Tags: 1.14.3-debian-10-r30
 FROM bitnami/geode:1.14.3-debian-10-r30
-
-# Tags: 1.14.3-debian-10-r29
-FROM bitnami/geode:1.14.3-debian-10-r29
-
-# Tags: 1.14.3-debian-10-r28
-FROM bitnami/geode:1.14.3-debian-10-r28
-
-# Tags: 1.14.3-debian-10-r27
-FROM bitnami/geode:1.14.3-debian-10-r27
-
-# Tags: 1.14.3-debian-10-r26
-FROM bitnami/geode:1.14.3-debian-10-r26
